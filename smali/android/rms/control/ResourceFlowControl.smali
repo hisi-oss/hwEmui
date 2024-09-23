@@ -536,7 +536,7 @@
 
     if-nez v2, :cond_2
 
-    sget-boolean v2, Landroid/util/Log;->HWINFO:Z
+    const/4 v2, 0x0
 
     if-eqz v2, :cond_3
 

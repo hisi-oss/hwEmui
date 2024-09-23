@@ -81,7 +81,7 @@
     if-nez v1, :cond_1
 
     .line 41
-    sget-boolean v1, Landroid/util/Log;->HWINFO:Z
+    const/4 v1, 0x0
 
     if-eqz v1, :cond_0
 
@@ -414,7 +414,7 @@
     .end local v4    # "packageName":Ljava/lang/String;
     :cond_1
     :goto_1
-    sget-boolean v2, Landroid/util/Log;->HWINFO:Z
+    const/4 v2, 0x0
 
     if-eqz v2, :cond_2
 

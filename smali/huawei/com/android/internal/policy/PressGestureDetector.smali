@@ -729,7 +729,7 @@
     .param p2, "msg"    # Ljava/lang/String;
 
     .line 527
-    sget-boolean v0, Landroid/util/Log;->HWLog:Z
+    const/4 v0, 0x0
 
     if-eqz v0, :cond_0
 

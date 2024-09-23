@@ -55,7 +55,7 @@
 
     .line 771
     .local v0, "isTop":Z
-    sget-boolean v2, Landroid/util/Log;->HWLog:Z
+    const/4 v2, 0x0
 
     if-eqz v2, :cond_0
 
@@ -115,7 +115,7 @@
     if-nez v2, :cond_3
 
     .line 779
-    sget-boolean v2, Landroid/util/Log;->HWLog:Z
+    const/4 v2, 0x0
 
     if-eqz v2, :cond_2
 

@@ -46,7 +46,7 @@
     iput-object p1, p0, Landroid/emcom/SmartcareInfos$SmartcareBaseInfo;->smarcareInfos:Landroid/emcom/SmartcareInfos;
 
     .line 37
-    sget-boolean v0, Landroid/util/Log;->HWINFO:Z
+    const/4 v0, 0x0
 
     if-eqz v0, :cond_0
 
@@ -105,7 +105,7 @@
     iput-object v0, p0, Landroid/emcom/SmartcareInfos$SmartcareBaseInfo;->pkgName:Ljava/lang/String;
 
     .line 45
-    sget-boolean v0, Landroid/util/Log;->HWINFO:Z
+    const/4 v0, 0x0
 
     if-eqz v0, :cond_0
 

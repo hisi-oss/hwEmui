@@ -53,7 +53,7 @@
     iput-object v0, p0, Lcom/huawei/displayengine/HwXmlElement;->TAG:Ljava/lang/String;
 
     .line 29
-    sget-boolean v0, Landroid/util/Log;->HWLog:Z
+    const/4 v0, 0x0
 
     const/4 v1, 0x1
 
@@ -61,7 +61,7 @@
 
     if-nez v0, :cond_1
 
-    sget-boolean v0, Landroid/util/Log;->HWModuleLog:Z
+    const/4 v0, 0x0
 
     if-eqz v0, :cond_0
 
@@ -90,11 +90,11 @@
     iput-boolean v0, p0, Lcom/huawei/displayengine/HwXmlElement;->HWDEBUG:Z
 
     .line 30
-    sget-boolean v0, Landroid/util/Log;->HWINFO:Z
+    const/4 v0, 0x0
 
     if-nez v0, :cond_3
 
-    sget-boolean v0, Landroid/util/Log;->HWModuleLog:Z
+    const/4 v0, 0x0
 
     if-eqz v0, :cond_2
 

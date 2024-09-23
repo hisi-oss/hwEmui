@@ -182,7 +182,7 @@
 
     .line 77
     :cond_0
-    sget-boolean v1, Landroid/util/Log;->HWINFO:Z
+    const/4 v1, 0x0
 
     if-eqz v1, :cond_1
 

@@ -26,11 +26,11 @@
     .locals 2
 
     .line 36
-    sget-boolean v0, Landroid/util/Log;->HWINFO:Z
+    const/4 v0, 0x0
 
     if-nez v0, :cond_1
 
-    sget-boolean v0, Landroid/util/Log;->HWModuleLog:Z
+    const/4 v0, 0x0
 
     if-eqz v0, :cond_0
 

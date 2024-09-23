@@ -20,7 +20,7 @@
     .locals 4
 
     .line 18
-    sget-boolean v0, Landroid/util/Log;->HWINFO:Z
+    const/4 v0, 0x0
 
     const/4 v1, 0x1
 
@@ -28,7 +28,7 @@
 
     if-nez v0, :cond_1
 
-    sget-boolean v0, Landroid/util/Log;->HWModuleLog:Z
+    const/4 v0, 0x0
 
     if-eqz v0, :cond_0
 
@@ -57,11 +57,11 @@
     sput-boolean v0, Lhuawei/android/security/facerecognition/utils/LogUtil;->HWDBG:Z
 
     .line 19
-    sget-boolean v0, Landroid/util/Log;->HWINFO:Z
+    const/4 v0, 0x0
 
     if-nez v0, :cond_3
 
-    sget-boolean v0, Landroid/util/Log;->HWModuleLog:Z
+    const/4 v0, 0x0
 
     if-eqz v0, :cond_2
 

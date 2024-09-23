@@ -197,7 +197,7 @@
     .param p1, "msgDelayed"    # J
 
     .line 783
-    sget-boolean v0, Landroid/util/Log;->HWINFO:Z
+    const/4 v0, 0x0
 
     if-eqz v0, :cond_0
 

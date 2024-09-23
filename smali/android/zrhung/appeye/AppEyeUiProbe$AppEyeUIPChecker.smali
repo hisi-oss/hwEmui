@@ -1911,7 +1911,7 @@
 
     .line 614
     :goto_0
-    sget-boolean v7, Landroid/util/Log;->HWINFO:Z
+    const/4 v7, 0x0
 
     if-nez v7, :cond_4
 

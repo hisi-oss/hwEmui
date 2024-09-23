@@ -117,7 +117,7 @@
     if-nez v0, :cond_1
 
     .line 275
-    sget-boolean v1, Landroid/util/Log;->HWINFO:Z
+    const/4 v1, 0x0
 
     if-eqz v1, :cond_0
 
@@ -150,7 +150,7 @@
 
     .line 282
     .local v1, "e":Landroid/os/RemoteException;
-    sget-boolean v2, Landroid/util/Log;->HWINFO:Z
+    const/4 v2, 0x0
 
     if-eqz v2, :cond_2
 
@@ -183,7 +183,7 @@
     if-nez v0, :cond_1
 
     .line 261
-    sget-boolean v1, Landroid/util/Log;->HWINFO:Z
+    const/4 v1, 0x0
 
     if-eqz v1, :cond_0
 
@@ -213,7 +213,7 @@
 
     .line 268
     .local v1, "e":Landroid/os/RemoteException;
-    sget-boolean v2, Landroid/util/Log;->HWINFO:Z
+    const/4 v2, 0x0
 
     if-eqz v2, :cond_2
 
@@ -245,7 +245,7 @@
     if-nez v0, :cond_1
 
     .line 511
-    sget-boolean v2, Landroid/util/Log;->HWINFO:Z
+    const/4 v2, 0x0
 
     if-eqz v2, :cond_0
 
@@ -276,7 +276,7 @@
 
     .line 518
     .local v2, "e":Landroid/os/RemoteException;
-    sget-boolean v3, Landroid/util/Log;->HWINFO:Z
+    const/4 v3, 0x0
 
     if-eqz v3, :cond_2
 
@@ -307,7 +307,7 @@
     if-nez v0, :cond_1
 
     .line 527
-    sget-boolean v2, Landroid/util/Log;->HWINFO:Z
+    const/4 v2, 0x0
 
     if-eqz v2, :cond_0
 
@@ -338,7 +338,7 @@
 
     .line 534
     .local v2, "e":Landroid/os/RemoteException;
-    sget-boolean v3, Landroid/util/Log;->HWINFO:Z
+    const/4 v3, 0x0
 
     if-eqz v3, :cond_2
 
@@ -368,7 +368,7 @@
     if-nez v0, :cond_1
 
     .line 483
-    sget-boolean v1, Landroid/util/Log;->HWINFO:Z
+    const/4 v1, 0x0
 
     if-eqz v1, :cond_0
 
@@ -398,7 +398,7 @@
 
     .line 490
     .local v1, "e":Landroid/os/RemoteException;
-    sget-boolean v2, Landroid/util/Log;->HWINFO:Z
+    const/4 v2, 0x0
 
     if-eqz v2, :cond_2
 
@@ -430,7 +430,7 @@
     if-nez v0, :cond_1
 
     .line 321
-    sget-boolean v1, Landroid/util/Log;->HWINFO:Z
+    const/4 v1, 0x0
 
     if-eqz v1, :cond_0
 
@@ -460,7 +460,7 @@
 
     .line 328
     .local v1, "e":Landroid/os/RemoteException;
-    sget-boolean v2, Landroid/util/Log;->HWINFO:Z
+    const/4 v2, 0x0
 
     if-eqz v2, :cond_2
 
@@ -491,7 +491,7 @@
     if-nez v0, :cond_1
 
     .line 497
-    sget-boolean v1, Landroid/util/Log;->HWINFO:Z
+    const/4 v1, 0x0
 
     if-eqz v1, :cond_0
 
@@ -521,7 +521,7 @@
 
     .line 504
     .local v1, "e":Landroid/os/RemoteException;
-    sget-boolean v2, Landroid/util/Log;->HWINFO:Z
+    const/4 v2, 0x0
 
     if-eqz v2, :cond_2
 
@@ -552,7 +552,7 @@
     if-nez v0, :cond_1
 
     .line 469
-    sget-boolean v1, Landroid/util/Log;->HWINFO:Z
+    const/4 v1, 0x0
 
     if-eqz v1, :cond_0
 
@@ -582,7 +582,7 @@
 
     .line 476
     .local v1, "e":Landroid/os/RemoteException;
-    sget-boolean v2, Landroid/util/Log;->HWINFO:Z
+    const/4 v2, 0x0
 
     if-eqz v2, :cond_2
 
@@ -618,7 +618,7 @@
     if-nez v0, :cond_1
 
     .line 687
-    sget-boolean v2, Landroid/util/Log;->HWINFO:Z
+    const/4 v2, 0x0
 
     if-eqz v2, :cond_0
 
@@ -649,7 +649,7 @@
 
     .line 694
     .local v2, "e":Landroid/os/RemoteException;
-    sget-boolean v3, Landroid/util/Log;->HWINFO:Z
+    const/4 v3, 0x0
 
     if-eqz v3, :cond_2
 
@@ -685,7 +685,7 @@
     if-nez v6, :cond_1
 
     .line 704
-    sget-boolean v0, Landroid/util/Log;->HWINFO:Z
+    const/4 v0, 0x0
 
     if-eqz v0, :cond_0
 
@@ -728,7 +728,7 @@
 
     .line 711
     .local v0, "e":Landroid/os/RemoteException;
-    sget-boolean v1, Landroid/util/Log;->HWINFO:Z
+    const/4 v1, 0x0
 
     if-eqz v1, :cond_2
 
@@ -769,7 +769,7 @@
     if-nez v0, :cond_1
 
     .line 588
-    sget-boolean v2, Landroid/util/Log;->HWINFO:Z
+    const/4 v2, 0x0
 
     if-eqz v2, :cond_0
 
@@ -800,7 +800,7 @@
 
     .line 595
     .local v2, "e":Landroid/os/RemoteException;
-    sget-boolean v3, Landroid/util/Log;->HWINFO:Z
+    const/4 v3, 0x0
 
     if-eqz v3, :cond_2
 
@@ -840,7 +840,7 @@
     if-nez v0, :cond_1
 
     .line 819
-    sget-boolean v2, Landroid/util/Log;->HWINFO:Z
+    const/4 v2, 0x0
 
     if-eqz v2, :cond_0
 
@@ -871,7 +871,7 @@
 
     .line 826
     .local v2, "e":Landroid/os/RemoteException;
-    sget-boolean v3, Landroid/util/Log;->HWINFO:Z
+    const/4 v3, 0x0
 
     if-eqz v3, :cond_2
 
@@ -911,7 +911,7 @@
     if-nez v0, :cond_1
 
     .line 936
-    sget-boolean v2, Landroid/util/Log;->HWINFO:Z
+    const/4 v2, 0x0
 
     if-eqz v2, :cond_0
 
@@ -942,7 +942,7 @@
 
     .line 943
     .local v2, "e":Landroid/os/RemoteException;
-    sget-boolean v3, Landroid/util/Log;->HWINFO:Z
+    const/4 v3, 0x0
 
     if-eqz v3, :cond_2
 
@@ -982,7 +982,7 @@
     if-nez v0, :cond_1
 
     .line 368
-    sget-boolean v2, Landroid/util/Log;->HWINFO:Z
+    const/4 v2, 0x0
 
     if-eqz v2, :cond_0
 
@@ -1013,7 +1013,7 @@
 
     .line 375
     .local v2, "e":Landroid/os/RemoteException;
-    sget-boolean v3, Landroid/util/Log;->HWINFO:Z
+    const/4 v3, 0x0
 
     if-eqz v3, :cond_2
 
@@ -1052,7 +1052,7 @@
     if-nez v0, :cond_1
 
     .line 384
-    sget-boolean v2, Landroid/util/Log;->HWINFO:Z
+    const/4 v2, 0x0
 
     if-eqz v2, :cond_0
 
@@ -1083,7 +1083,7 @@
 
     .line 391
     .local v2, "e":Landroid/os/RemoteException;
-    sget-boolean v3, Landroid/util/Log;->HWINFO:Z
+    const/4 v3, 0x0
 
     if-eqz v3, :cond_2
 
@@ -1114,7 +1114,7 @@
     if-nez v0, :cond_1
 
     .line 453
-    sget-boolean v3, Landroid/util/Log;->HWINFO:Z
+    const/4 v3, 0x0
 
     if-eqz v3, :cond_0
 
@@ -1145,7 +1145,7 @@
 
     .line 460
     .local v3, "e":Landroid/os/RemoteException;
-    sget-boolean v4, Landroid/util/Log;->HWINFO:Z
+    const/4 v4, 0x0
 
     if-eqz v4, :cond_2
 
@@ -1185,7 +1185,7 @@
     if-nez v0, :cond_1
 
     .line 801
-    sget-boolean v2, Landroid/util/Log;->HWINFO:Z
+    const/4 v2, 0x0
 
     if-eqz v2, :cond_0
 
@@ -1216,7 +1216,7 @@
 
     .line 808
     .local v2, "e":Landroid/os/RemoteException;
-    sget-boolean v3, Landroid/util/Log;->HWINFO:Z
+    const/4 v3, 0x0
 
     if-eqz v3, :cond_2
 
@@ -1279,7 +1279,7 @@
     if-nez v0, :cond_1
 
     .line 403
-    sget-boolean v2, Landroid/util/Log;->HWINFO:Z
+    const/4 v2, 0x0
 
     if-eqz v2, :cond_0
 
@@ -1310,7 +1310,7 @@
 
     .line 410
     .local v2, "e":Landroid/os/RemoteException;
-    sget-boolean v3, Landroid/util/Log;->HWINFO:Z
+    const/4 v3, 0x0
 
     if-eqz v3, :cond_2
 
@@ -1344,7 +1344,7 @@
     if-nez v0, :cond_1
 
     .line 920
-    sget-boolean v2, Landroid/util/Log;->HWINFO:Z
+    const/4 v2, 0x0
 
     if-eqz v2, :cond_0
 
@@ -1375,7 +1375,7 @@
 
     .line 927
     .local v2, "e":Landroid/os/RemoteException;
-    sget-boolean v3, Landroid/util/Log;->HWINFO:Z
+    const/4 v3, 0x0
 
     if-eqz v3, :cond_2
 
@@ -1409,7 +1409,7 @@
     if-nez v1, :cond_1
 
     .line 147
-    sget-boolean v2, Landroid/util/Log;->HWINFO:Z
+    const/4 v2, 0x0
 
     if-eqz v2, :cond_0
 
@@ -1440,7 +1440,7 @@
 
     .line 153
     .local v2, "e":Landroid/os/RemoteException;
-    sget-boolean v3, Landroid/util/Log;->HWINFO:Z
+    const/4 v3, 0x0
 
     if-eqz v3, :cond_2
 
@@ -1474,7 +1474,7 @@
     if-nez v2, :cond_1
 
     .line 162
-    sget-boolean v3, Landroid/util/Log;->HWINFO:Z
+    const/4 v3, 0x0
 
     if-eqz v3, :cond_0
 
@@ -1505,7 +1505,7 @@
 
     .line 168
     .local v3, "e":Landroid/os/RemoteException;
-    sget-boolean v4, Landroid/util/Log;->HWINFO:Z
+    const/4 v4, 0x0
 
     if-eqz v4, :cond_2
 
@@ -1537,7 +1537,7 @@
     if-nez v0, :cond_1
 
     .line 109
-    sget-boolean v2, Landroid/util/Log;->HWINFO:Z
+    const/4 v2, 0x0
 
     if-eqz v2, :cond_0
 
@@ -1577,7 +1577,7 @@
 
     .line 116
     .local v2, "e":Landroid/os/RemoteException;
-    sget-boolean v3, Landroid/util/Log;->HWINFO:Z
+    const/4 v3, 0x0
 
     if-eqz v3, :cond_3
 
@@ -1618,7 +1618,7 @@
     if-nez v0, :cond_1
 
     .line 603
-    sget-boolean v2, Landroid/util/Log;->HWINFO:Z
+    const/4 v2, 0x0
 
     if-eqz v2, :cond_0
 
@@ -1649,7 +1649,7 @@
 
     .line 610
     .local v2, "e":Landroid/os/RemoteException;
-    sget-boolean v3, Landroid/util/Log;->HWINFO:Z
+    const/4 v3, 0x0
 
     if-eqz v3, :cond_2
 
@@ -1681,7 +1681,7 @@
     if-nez v0, :cond_1
 
     .line 951
-    sget-boolean v2, Landroid/util/Log;->HWINFO:Z
+    const/4 v2, 0x0
 
     if-eqz v2, :cond_0
 
@@ -1712,7 +1712,7 @@
 
     .line 958
     .local v2, "e":Landroid/os/RemoteException;
-    sget-boolean v3, Landroid/util/Log;->HWINFO:Z
+    const/4 v3, 0x0
 
     if-eqz v3, :cond_2
 
@@ -1745,7 +1745,7 @@
     if-nez v0, :cond_1
 
     .line 126
-    sget-boolean v2, Landroid/util/Log;->HWINFO:Z
+    const/4 v2, 0x0
 
     if-eqz v2, :cond_0
 
@@ -1786,7 +1786,7 @@
 
     .line 136
     .local v2, "e":Landroid/os/RemoteException;
-    sget-boolean v3, Landroid/util/Log;->HWINFO:Z
+    const/4 v3, 0x0
 
     if-eqz v3, :cond_3
 
@@ -1817,7 +1817,7 @@
     if-nez v0, :cond_1
 
     .line 558
-    sget-boolean v1, Landroid/util/Log;->HWINFO:Z
+    const/4 v1, 0x0
 
     if-eqz v1, :cond_0
 
@@ -1847,7 +1847,7 @@
 
     .line 565
     .local v1, "e":Landroid/os/RemoteException;
-    sget-boolean v2, Landroid/util/Log;->HWINFO:Z
+    const/4 v2, 0x0
 
     if-eqz v2, :cond_2
 
@@ -1879,7 +1879,7 @@
     if-nez v0, :cond_1
 
     .line 751
-    sget-boolean v2, Landroid/util/Log;->HWINFO:Z
+    const/4 v2, 0x0
 
     if-eqz v2, :cond_0
 
@@ -1910,7 +1910,7 @@
 
     .line 758
     .local v2, "e":Landroid/os/RemoteException;
-    sget-boolean v3, Landroid/util/Log;->HWINFO:Z
+    const/4 v3, 0x0
 
     if-eqz v3, :cond_2
 
@@ -1942,7 +1942,7 @@
     if-nez v0, :cond_1
 
     .line 734
-    sget-boolean v2, Landroid/util/Log;->HWINFO:Z
+    const/4 v2, 0x0
 
     if-eqz v2, :cond_0
 
@@ -1973,7 +1973,7 @@
 
     .line 741
     .local v2, "e":Landroid/os/RemoteException;
-    sget-boolean v3, Landroid/util/Log;->HWINFO:Z
+    const/4 v3, 0x0
 
     if-eqz v3, :cond_2
 
@@ -2005,7 +2005,7 @@
     if-nez v0, :cond_1
 
     .line 572
-    sget-boolean v2, Landroid/util/Log;->HWINFO:Z
+    const/4 v2, 0x0
 
     if-eqz v2, :cond_0
 
@@ -2036,7 +2036,7 @@
 
     .line 579
     .local v2, "e":Landroid/os/RemoteException;
-    sget-boolean v3, Landroid/util/Log;->HWINFO:Z
+    const/4 v3, 0x0
 
     if-eqz v3, :cond_2
 
@@ -2068,7 +2068,7 @@
     if-nez v0, :cond_1
 
     .line 215
-    sget-boolean v2, Landroid/util/Log;->HWINFO:Z
+    const/4 v2, 0x0
 
     if-eqz v2, :cond_0
 
@@ -2108,7 +2108,7 @@
 
     .line 223
     .local v2, "e":Landroid/os/RemoteException;
-    sget-boolean v3, Landroid/util/Log;->HWINFO:Z
+    const/4 v3, 0x0
 
     if-eqz v3, :cond_3
 
@@ -2143,7 +2143,7 @@
     if-nez v0, :cond_1
 
     .line 888
-    sget-boolean v2, Landroid/util/Log;->HWINFO:Z
+    const/4 v2, 0x0
 
     if-eqz v2, :cond_0
 
@@ -2174,7 +2174,7 @@
 
     .line 895
     .local v2, "e":Landroid/os/RemoteException;
-    sget-boolean v3, Landroid/util/Log;->HWINFO:Z
+    const/4 v3, 0x0
 
     if-eqz v3, :cond_2
 
@@ -2210,7 +2210,7 @@
     if-nez v9, :cond_1
 
     .line 654
-    sget-boolean v0, Landroid/util/Log;->HWINFO:Z
+    const/4 v0, 0x0
 
     if-eqz v0, :cond_0
 
@@ -2258,7 +2258,7 @@
 
     .line 662
     .local v0, "e":Landroid/os/RemoteException;
-    sget-boolean v1, Landroid/util/Log;->HWINFO:Z
+    const/4 v1, 0x0
 
     if-eqz v1, :cond_2
 
@@ -2291,7 +2291,7 @@
     if-nez v0, :cond_1
 
     .line 299
-    sget-boolean v1, Landroid/util/Log;->HWINFO:Z
+    const/4 v1, 0x0
 
     if-eqz v1, :cond_0
 
@@ -2321,7 +2321,7 @@
 
     .line 306
     .local v1, "e":Landroid/os/RemoteException;
-    sget-boolean v2, Landroid/util/Log;->HWINFO:Z
+    const/4 v2, 0x0
 
     if-eqz v2, :cond_2
 
@@ -2358,7 +2358,7 @@
     if-nez v9, :cond_1
 
     .line 247
-    sget-boolean v0, Landroid/util/Log;->HWINFO:Z
+    const/4 v0, 0x0
 
     if-eqz v0, :cond_0
 
@@ -2406,7 +2406,7 @@
 
     .line 254
     .local v0, "e":Landroid/os/RemoteException;
-    sget-boolean v1, Landroid/util/Log;->HWINFO:Z
+    const/4 v1, 0x0
 
     if-eqz v1, :cond_2
 
@@ -2439,7 +2439,7 @@
     if-nez v0, :cond_1
 
     .line 967
-    sget-boolean v1, Landroid/util/Log;->HWINFO:Z
+    const/4 v1, 0x0
 
     if-eqz v1, :cond_0
 
@@ -2469,7 +2469,7 @@
 
     .line 974
     .local v1, "e":Landroid/os/RemoteException;
-    sget-boolean v2, Landroid/util/Log;->HWINFO:Z
+    const/4 v2, 0x0
 
     if-eqz v2, :cond_2
 
@@ -2502,7 +2502,7 @@
     if-nez v0, :cond_1
 
     .line 619
-    sget-boolean v2, Landroid/util/Log;->HWINFO:Z
+    const/4 v2, 0x0
 
     if-eqz v2, :cond_0
 
@@ -2542,7 +2542,7 @@
 
     .line 627
     .local v2, "e":Landroid/os/RemoteException;
-    sget-boolean v3, Landroid/util/Log;->HWINFO:Z
+    const/4 v3, 0x0
 
     if-eqz v3, :cond_3
 
@@ -2575,7 +2575,7 @@
     if-nez v0, :cond_1
 
     .line 180
-    sget-boolean v2, Landroid/util/Log;->HWINFO:Z
+    const/4 v2, 0x0
 
     if-eqz v2, :cond_0
 
@@ -2615,7 +2615,7 @@
 
     .line 188
     .local v2, "e":Landroid/os/RemoteException;
-    sget-boolean v3, Landroid/util/Log;->HWINFO:Z
+    const/4 v3, 0x0
 
     if-eqz v3, :cond_3
 
@@ -2649,7 +2649,7 @@
     if-nez v0, :cond_1
 
     .line 198
-    sget-boolean v2, Landroid/util/Log;->HWINFO:Z
+    const/4 v2, 0x0
 
     if-eqz v2, :cond_0
 
@@ -2689,7 +2689,7 @@
 
     .line 206
     .local v2, "e":Landroid/os/RemoteException;
-    sget-boolean v3, Landroid/util/Log;->HWINFO:Z
+    const/4 v3, 0x0
 
     if-eqz v3, :cond_3
 
@@ -2730,7 +2730,7 @@
     if-nez v0, :cond_1
 
     .line 420
-    sget-boolean v1, Landroid/util/Log;->HWINFO:Z
+    const/4 v1, 0x0
 
     if-eqz v1, :cond_0
 
@@ -2760,7 +2760,7 @@
 
     .line 427
     .local v1, "e":Landroid/os/RemoteException;
-    sget-boolean v2, Landroid/util/Log;->HWINFO:Z
+    const/4 v2, 0x0
 
     if-eqz v2, :cond_2
 
@@ -2791,7 +2791,7 @@
     if-nez v0, :cond_1
 
     .line 336
-    sget-boolean v1, Landroid/util/Log;->HWINFO:Z
+    const/4 v1, 0x0
 
     if-eqz v1, :cond_0
 
@@ -2821,7 +2821,7 @@
 
     .line 343
     .local v1, "e":Landroid/os/RemoteException;
-    sget-boolean v2, Landroid/util/Log;->HWINFO:Z
+    const/4 v2, 0x0
 
     if-eqz v2, :cond_2
 
@@ -2853,7 +2853,7 @@
     if-nez v0, :cond_1
 
     .line 351
-    sget-boolean v1, Landroid/util/Log;->HWINFO:Z
+    const/4 v1, 0x0
 
     if-eqz v1, :cond_0
 
@@ -2883,7 +2883,7 @@
 
     .line 359
     .local v1, "e":Landroid/os/RemoteException;
-    sget-boolean v2, Landroid/util/Log;->HWINFO:Z
+    const/4 v2, 0x0
 
     if-eqz v2, :cond_2
 
@@ -2989,7 +2989,7 @@
     if-nez v0, :cond_1
 
     .line 436
-    sget-boolean v1, Landroid/util/Log;->HWINFO:Z
+    const/4 v1, 0x0
 
     if-eqz v1, :cond_0
 
@@ -3019,7 +3019,7 @@
 
     .line 443
     .local v1, "e":Landroid/os/RemoteException;
-    sget-boolean v2, Landroid/util/Log;->HWINFO:Z
+    const/4 v2, 0x0
 
     if-eqz v2, :cond_2
 
@@ -3194,7 +3194,7 @@
     if-nez v0, :cond_1
 
     .line 904
-    sget-boolean v1, Landroid/util/Log;->HWINFO:Z
+    const/4 v1, 0x0
 
     if-eqz v1, :cond_0
 
@@ -3224,7 +3224,7 @@
 
     .line 911
     .local v1, "e":Landroid/os/RemoteException;
-    sget-boolean v2, Landroid/util/Log;->HWINFO:Z
+    const/4 v2, 0x0
 
     if-eqz v2, :cond_2
 
@@ -3419,7 +3419,7 @@
     if-nez v6, :cond_1
 
     .line 543
-    sget-boolean v0, Landroid/util/Log;->HWINFO:Z
+    const/4 v0, 0x0
 
     if-eqz v0, :cond_0
 
@@ -3461,7 +3461,7 @@
 
     .line 550
     .local v0, "e":Landroid/os/RemoteException;
-    sget-boolean v1, Landroid/util/Log;->HWINFO:Z
+    const/4 v1, 0x0
 
     if-eqz v1, :cond_2
 
@@ -3495,7 +3495,7 @@
     if-nez v0, :cond_1
 
     .line 670
-    sget-boolean v2, Landroid/util/Log;->HWINFO:Z
+    const/4 v2, 0x0
 
     if-eqz v2, :cond_0
 
@@ -3526,7 +3526,7 @@
 
     .line 677
     .local v2, "e":Landroid/os/RemoteException;
-    sget-boolean v3, Landroid/util/Log;->HWINFO:Z
+    const/4 v3, 0x0
 
     if-eqz v3, :cond_2
 
@@ -3608,7 +3608,7 @@
     if-nez v0, :cond_1
 
     .line 636
-    sget-boolean v2, Landroid/util/Log;->HWINFO:Z
+    const/4 v2, 0x0
 
     if-eqz v2, :cond_0
 
@@ -3648,7 +3648,7 @@
 
     .line 644
     .local v2, "e":Landroid/os/RemoteException;
-    sget-boolean v3, Landroid/util/Log;->HWINFO:Z
+    const/4 v3, 0x0
 
     if-eqz v3, :cond_3
 
@@ -3681,7 +3681,7 @@
     if-nez v0, :cond_1
 
     .line 981
-    sget-boolean v1, Landroid/util/Log;->HWINFO:Z
+    const/4 v1, 0x0
 
     if-eqz v1, :cond_0
 
@@ -3711,7 +3711,7 @@
 
     .line 988
     .local v1, "e":Landroid/os/RemoteException;
-    sget-boolean v2, Landroid/util/Log;->HWINFO:Z
+    const/4 v2, 0x0
 
     if-eqz v2, :cond_2
 
@@ -3750,7 +3750,7 @@
     if-nez v0, :cond_1
 
     .line 720
-    sget-boolean v1, Landroid/util/Log;->HWINFO:Z
+    const/4 v1, 0x0
 
     if-eqz v1, :cond_0
 
@@ -3780,7 +3780,7 @@
 
     .line 727
     .local v1, "e":Landroid/os/RemoteException;
-    sget-boolean v2, Landroid/util/Log;->HWINFO:Z
+    const/4 v2, 0x0
 
     if-eqz v2, :cond_2
 

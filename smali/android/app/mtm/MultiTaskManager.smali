@@ -112,7 +112,7 @@
     if-nez v1, :cond_2
 
     .line 76
-    sget-boolean v1, Landroid/util/Log;->HWINFO:Z
+    const/4 v1, 0x0
 
     if-eqz v1, :cond_1
 
@@ -927,7 +927,7 @@
     if-nez v0, :cond_1
 
     .line 315
-    sget-boolean v1, Landroid/util/Log;->HWINFO:Z
+    const/4 v1, 0x0
 
     if-eqz v1, :cond_0
 
@@ -957,7 +957,7 @@
 
     .line 321
     .local v1, "e":Landroid/os/RemoteException;
-    sget-boolean v2, Landroid/util/Log;->HWINFO:Z
+    const/4 v2, 0x0
 
     if-eqz v2, :cond_2
 

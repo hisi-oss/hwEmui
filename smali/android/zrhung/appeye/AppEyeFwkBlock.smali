@@ -711,7 +711,7 @@
 
     .line 261
     .local v3, "cmd":Ljava/lang/StringBuilder;
-    sget-boolean v4, Landroid/util/Log;->HWINFO:Z
+    const/4 v4, 0x0
 
     if-eqz v4, :cond_0
 
@@ -860,7 +860,7 @@
     invoke-virtual {v2, v10, v6}, Landroid/zrhung/ZrHungData;->putInt(Ljava/lang/String;I)V
 
     .line 281
-    sget-boolean v10, Landroid/util/Log;->HWINFO:Z
+    const/4 v10, 0x0
 
     if-eqz v10, :cond_2
 

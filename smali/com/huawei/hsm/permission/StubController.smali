@@ -1256,7 +1256,7 @@
 
     .line 536
     .local v9, "preCheckCode":I
-    sget-boolean v0, Landroid/util/Log;->HWLog:Z
+    const/4 v0, 0x0
 
     if-eqz v0, :cond_1
 
@@ -1472,7 +1472,7 @@
     move v7, v0
 
     .line 566
-    sget-boolean v0, Landroid/util/Log;->HWLog:Z
+    const/4 v0, 0x0
 
     if-eqz v0, :cond_7
 

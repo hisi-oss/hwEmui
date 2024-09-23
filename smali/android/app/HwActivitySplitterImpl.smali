@@ -583,7 +583,7 @@
     iput v1, v0, Landroid/view/ViewGroup$LayoutParams;->width:I
 
     .line 435
-    sget-boolean v1, Landroid/util/Log;->HWLog:Z
+    const/4 v1, 0x0
 
     if-eqz v1, :cond_1
 
@@ -670,7 +670,7 @@
 
     .line 632
     :cond_1
-    sget-boolean v0, Landroid/util/Log;->HWLog:Z
+    const/4 v0, 0x0
 
     if-eqz v0, :cond_2
 
@@ -1219,7 +1219,7 @@
     if-eqz v1, :cond_1
 
     .line 715
-    sget-boolean v0, Landroid/util/Log;->HWLog:Z
+    const/4 v0, 0x0
 
     if-eqz v0, :cond_3
 
@@ -1370,7 +1370,7 @@
     invoke-virtual {v0, v1}, Landroid/view/Display;->getSize(Landroid/graphics/Point;)V
 
     .line 968
-    sget-boolean v0, Landroid/util/Log;->HWLog:Z
+    const/4 v0, 0x0
 
     if-eqz v0, :cond_1
 
@@ -2095,7 +2095,7 @@
     .line 1224
     :cond_1
     :goto_0
-    sget-boolean v0, Landroid/util/Log;->HWLog:Z
+    const/4 v0, 0x0
 
     if-eqz v0, :cond_2
 
@@ -3382,7 +3382,7 @@
     .line 840
     .local v2, "start":Z
     :goto_1
-    sget-boolean v3, Landroid/util/Log;->HWLog:Z
+    const/4 v3, 0x0
 
     if-eqz v3, :cond_4
 
@@ -3516,7 +3516,7 @@
     .end local v2    # "start":Z
     :cond_6
     :goto_4
-    sget-boolean v1, Landroid/util/Log;->HWLog:Z
+    const/4 v1, 0x0
 
     if-eqz v1, :cond_7
 
@@ -4048,7 +4048,7 @@
     .locals 6
 
     .line 872
-    sget-boolean v0, Landroid/util/Log;->HWLog:Z
+    const/4 v0, 0x0
 
     if-eqz v0, :cond_0
 
@@ -4083,7 +4083,7 @@
     iput-boolean v0, p0, Landroid/app/HwActivitySplitterImpl;->mSplit:Z
 
     .line 879
-    sget-boolean v0, Landroid/util/Log;->HWLog:Z
+    const/4 v0, 0x0
 
     if-eqz v0, :cond_2
 
@@ -4180,7 +4180,7 @@
     iput v3, v0, Landroid/view/WindowManager$LayoutParams;->height:I
 
     .line 894
-    sget-boolean v3, Landroid/util/Log;->HWLog:Z
+    const/4 v3, 0x0
 
     if-eqz v3, :cond_7
 
@@ -4402,7 +4402,7 @@
     iput p1, v0, Landroid/view/WindowManager$LayoutParams;->width:I
 
     .line 937
-    sget-boolean v1, Landroid/util/Log;->HWLog:Z
+    const/4 v1, 0x0
 
     if-eqz v1, :cond_0
 
@@ -4561,7 +4561,7 @@
     if-eqz v0, :cond_3
 
     .line 995
-    sget-boolean v0, Landroid/util/Log;->HWLog:Z
+    const/4 v0, 0x0
 
     if-eqz v0, :cond_1
 
@@ -4938,7 +4938,7 @@
 
     .line 1582
     .local v0, "currentLang":Ljava/lang/String;
-    sget-boolean v1, Landroid/util/Log;->HWLog:Z
+    const/4 v1, 0x0
 
     if-eqz v1, :cond_0
 
@@ -5193,7 +5193,7 @@
     .param p1, "newConfig"    # Landroid/content/res/Configuration;
 
     .line 1142
-    sget-boolean v0, Landroid/util/Log;->HWLog:Z
+    const/4 v0, 0x0
 
     if-eqz v0, :cond_0
 
@@ -5248,7 +5248,7 @@
     invoke-direct {p0}, Landroid/app/HwActivitySplitterImpl;->adjustContentIndexView()V
 
     .line 1153
-    sget-boolean v0, Landroid/util/Log;->HWLog:Z
+    const/4 v0, 0x0
 
     if-eqz v0, :cond_2
 
@@ -5632,7 +5632,7 @@
     .param p1, "showing"    # Z
 
     .line 357
-    sget-boolean v0, Landroid/util/Log;->HWLog:Z
+    const/4 v0, 0x0
 
     if-eqz v0, :cond_0
 
@@ -5762,7 +5762,7 @@
 
     .line 1447
     :cond_0
-    sget-boolean v0, Landroid/util/Log;->HWLog:Z
+    const/4 v0, 0x0
 
     if-eqz v0, :cond_1
 
@@ -5802,7 +5802,7 @@
     if-eqz v0, :cond_4
 
     .line 1451
-    sget-boolean v0, Landroid/util/Log;->HWLog:Z
+    const/4 v0, 0x0
 
     if-eqz v0, :cond_2
 
@@ -6167,7 +6167,7 @@
 
     .line 1329
     :cond_0
-    sget-boolean v0, Landroid/util/Log;->HWLog:Z
+    const/4 v0, 0x0
 
     if-eqz v0, :cond_1
 
@@ -6189,7 +6189,7 @@
     if-eqz v0, :cond_3
 
     .line 1334
-    sget-boolean v0, Landroid/util/Log;->HWLog:Z
+    const/4 v0, 0x0
 
     if-eqz v0, :cond_2
 
@@ -6255,7 +6255,7 @@
 
     .line 1346
     :cond_5
-    sget-boolean v0, Landroid/util/Log;->HWLog:Z
+    const/4 v0, 0x0
 
     if-eqz v0, :cond_6
 
@@ -6402,7 +6402,7 @@
 
     .line 1508
     :cond_0
-    sget-boolean v0, Landroid/util/Log;->HWLog:Z
+    const/4 v0, 0x0
 
     if-eqz v0, :cond_1
 
